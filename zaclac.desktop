@@ -1,0 +1,13 @@
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=Zakat Kalkulator Indonesia
+Comment=Kalkulator Zakat Indonesia Banget
+Exec=python /usr/share/zaclac/zaclac.py
+Icon=accesories-calculator
+Terminal=false
+Type=Application
+Categories=X-Islamic-Software;X-zaclac;
+StartupNotify=true
+X-Ubuntu-Gettext-Domain=zaclac
+
