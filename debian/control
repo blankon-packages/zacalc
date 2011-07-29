@@ -1,4 +1,4 @@
-Source: zaclac
+Source: zacalc
 Section: desktop
 Priority: extra
 Maintainer: BlankOn Developers <BlankOn-dev@googlegroups.com>
@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7.0.50), python-tk
 Standards-Version: 3.9.1
 VCS-bzr: http://dev.blankonlinux.or.id/bzr/pattimura/zaclac
 
-Package: zaclac
+Package: zacalc
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}, 
 Description: Zakat Kalkulator
