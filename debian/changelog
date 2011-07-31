@@ -1,3 +1,9 @@
+zacalc (0.1.2) pattimura; urgency=low
+
+  * Added islamic-menus, python-tk add deppends 
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Sun, 31 Jul 2011 21:01:29 +0700
+
 zacalc (0.1.1) pattimura; urgency=low
 
   * New: Iintial release
