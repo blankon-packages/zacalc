@@ -1,3 +1,10 @@
+zacalc (0.2.2) rote; urgency=low
+
+  *new upstream release
+   -zacalc with english langauge 
+
+ -- muhammad abdul majid <tuyul.det@gmail.com>  Sat, 15 Oct 2011 22:26:40 +0700
+
 zacalc (0.2.1) rote; urgency=low
 
   * new upstreame release
