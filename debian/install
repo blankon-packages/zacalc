@@ -1,2 +1,3 @@
 *.py /usr/share/zaclac/
 *.desktop /usr/share/applications/
+*.png /usr/share/zaclac/
