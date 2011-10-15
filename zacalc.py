@@ -35,7 +35,7 @@ class ZaCalc( Frame ):
 		Frame.__init__( self )
 		
 		self.pack( expand = YES, fill = BOTH )
-		self.master.title( "Kalkulator Zakat BlankOn" )
+		self.master.title( "Kalkulator Zakat Indonesia" )
 		self.master.rowconfigure( 0, weight = 1 )
 		self.master.columnconfigure( 0, weight = 1 )
 		self.grid( sticky = W+N )
