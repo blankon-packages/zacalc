@@ -1,8 +1,7 @@
 zacalc (0.2.3) rote; urgency=low
 
-  *new upstream release
-    -revision pygtk   
-    -zacalc with english langauge 
+  *revision pygtk   
+  
 
  -- muhammad abdul majid <tuyul.det@gmail.com>  Thu, 20 Oct 2011 00:08:03 +0700
 
