@@ -2,12 +2,12 @@
 [Desktop Entry]
 Encoding=UTF-8
 Name=Zakat Kalkulator Indonesia
-Comment=Kalkulator Zakat Indonesia Banget
+Comment=Kalkulator Zakat Indonesia
 Exec=python /usr/share/zaclac/zacalc.py
-Icon=accessories-calculator
+Icon=/usr/share/icons/zacalc.png
 Terminal=false
 Type=Application
 Categories=X-Islamic-Software;X-zaclac;
 StartupNotify=true
-
+X-Ubuntu-Gettext-Domain=zaclac
 

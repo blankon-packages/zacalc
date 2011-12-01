@@ -1,3 +1,4 @@
 *.py /usr/share/zaclac/
 *.desktop /usr/share/applications/
-*.png /usr/share/zaclac/
+zacalc.png /usr/share/icons/
+logo.png /usr/share/zaclac/

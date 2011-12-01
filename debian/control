@@ -8,7 +8,7 @@ VCS-bzr: http://dev.blankonlinux.or.id/bzr/pattimura/zacalc
 
 Package: zacalc
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, python-tk, islamic-menus, pygtk 
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-tk, islamic-menus 
 Description: Zakat Kalkulator
  Zakat Kalkulator
 

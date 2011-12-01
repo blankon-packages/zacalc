@@ -1,8 +1,14 @@
+zacalc (0.2.4) rote; urgency=low
+
+  * add icons/zacalc.png
+  * revisi applications/zacalc.desktop
+ 
+ -- azis ws <azis.astrojim@surabaya.di.blankon.in>  Fri, 02 Dec 2011 03:25:51 +0700
+
 zacalc (0.2.3) rote; urgency=low
 
   *revision pygtk   
   
-
  -- muhammad abdul majid <tuyul.det@gmail.com>  Thu, 20 Oct 2011 00:08:03 +0700
 
 zacalc (0.2.1) rote; urgency=low

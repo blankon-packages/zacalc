@@ -78,38 +78,38 @@ class ZaCalc(object):
 		self.out12 = gtk.Label()
 		
 		labelA = gtk.Label('')
-		labelA.set_markup('<b>INCOME</b>')
+		labelA.set_markup('<b>PENDAPATAN</b>')
 		labelB = gtk.Label('')
-		labelB.set_markup('<b>ZAKAT REVENUE</b>')
+		labelB.set_markup('<b>ZAKAT PENGHASILAN</b>')
 		labelC = gtk.Label('')
-		labelC.set_markup('<b>ZAKAT DEPOSITS</b>')
+		labelC.set_markup('<b>ZAKAT SIMPANAN</b>')
 		
-		label1 = gtk.Label("Income / Salary (monthly)")
-		label2 = gtk.Label("Other income (monthly)")
-		label3 = gtk.Label("Total income (yearly)")
-		label4 = gtk.Label("expenditure needs (monthly)")
-		label5 = gtk.Label("Total expenditure needs (yearly")
-		label6 = gtk.Label("Residual income")
+		label1 = gtk.Label("Pendapatan / gaji (per bulan)")
+		label2 = gtk.Label("Pendapatan lain (per bulan)")
+		label3 = gtk.Label("Pendapatan total (per tahun)")
+		label4 = gtk.Label("Kebutuhan (per bulan)")
+		label5 = gtk.Label("Kebutuhan total (per tahun)")
+		label6 = gtk.Label("Sisa pendapatan")
 		
-		label7 = gtk.Label("Current price of rice (per kg)")
-		label8 = gtk.Label("Magnitude nishab")
-		label9 = gtk.Label("Obligatory revenue zakat ?")
-		label10 = gtk.Label("Large income zakat to be paid")
-		label11 = gtk.Label("Zakat Yearly")
-		label12 = gtk.Label("Zakat Monthly")
+		label7 = gtk.Label("Harga beras saat ini (per Kg)")
+		label8 = gtk.Label("Besarnya nishab")
+		label9 = gtk.Label("Wajib zakat penghasilan ?")
+		label10 = gtk.Label("Besarnya zakat penghasilan yang harus dibayarkan")
+		label11 = gtk.Label("Zakat Per tahun")
+		label12 = gtk.Label("Zakat Per bulan")
 		
-		label13 = gtk.Label("Current price of gold (per gram)")
-		label14 = gtk.Label("Magnitude nishab")
-		label15 = gtk.Label("Obligatory deposits zakat ?")
-		label16 = gtk.Label("Large deposits of zakat to be paid")
-		label17 = gtk.Label("Zakat Yearly")
-		label18 = gtk.Label("Zakat Monthly")
+		label13 = gtk.Label("Harga emas saat ini (per gram)")
+		label14 = gtk.Label("Besarnya nishab")
+		label15 = gtk.Label("Wajib zakat simpanan ?")
+		label16 = gtk.Label("Besarnya zakat simpanan yang harus dibayarkan")
+		label17 = gtk.Label("Zakat Per tahun")
+		label18 = gtk.Label("Zakat Per bulan")
 					
 		#gtk button
 		button1 = gtk.Button(stock='gtk-about')
-		button2 = gtk.Button("Calculate _Zakat")
-		button3 = gtk.Button(stock='_Reset')
-		button4 = gtk.Button(stock='_Exit')
+		button2 = gtk.Button("_Hitung Zakat")
+		button3 = gtk.Button(stock='gtk-clear')
+		button4 = gtk.Button(stock='gtk-close')
 		
 		#vbox
 		vbox1 = gtk.VBox(False, 5)
@@ -126,7 +126,7 @@ class ZaCalc(object):
 		buttonbox.add(button4)
 		
 		#image
-		pixbuf = gtk.gdk.pixbuf_new_from_file("logo.png")
+		pixbuf = gtk.gdk.pixbuf_new_from_file("/usr/share/zaclac/logo.png")
 		image = gtk.Image()
 		image.set_from_pixbuf(pixbuf)
 		image.show()
@@ -379,7 +379,7 @@ class ZaCalc(object):
 			self.clear_value(self)
 
 	def show_about(self, widget):
-		authors = ["Fitra Aditya <fitra@idmail.or.id>","Ari Effendi <zerosix06@gmail.com>","Abd Azis Ws <ul2albab@gmail.com>"]
+		a=["Fitra Aditya <fitra@idmail.or.id>","Ari Effendi <zerosix06@gmail.com>","Abd Azis Ws <ul2albab@gmail.com>"]
 		translate = """Alfian Fahmi <ketua@surabaya.di.blankon.in>"""
 		design = ["Abd Azis Ws <ul2albab@gmail.com>"]
 		
@@ -389,7 +389,7 @@ class ZaCalc(object):
 		about.set_copyright("(c) 2011 BlankOn Linux")
 		about.set_comments("BlankOn Zakat Calculator is Moslem tool to calculate the amount of zakat must be spent every year or every month")
 		about.set_website("http://www.blankonlinux.or.id")
-		about.set_authors(authors)
+		about.set_authors(a)
 		about.set_translator_credits(translate)
 		about.set_artists(design)
 		about.set_license(license)
@@ -401,10 +401,10 @@ class ZaCalc(object):
 		return "<b>"+str(value)+"</b>"
 
 	def text_yes(self):
-		return '<span foreground="#007000" weight="Bold">Zakat Payer</span>'
+		return '<span foreground="#007000" weight="Bold">Wajib Zakat</span>'
 
 	def text_no(self):
-		return '<span foreground="red" weight="Bold">No Mandatory</span>'
+		return '<span foreground="red" weight="Bold">Tidak Wajib</span>'
 
 	def text_zero(self):
 		return '<b>0</b>'
