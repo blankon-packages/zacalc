@@ -265,7 +265,7 @@ class ZaCalc(object):
 		
 		icon_theme = gtk.icon_theme_get_default()
 		try:
-			self.icon = icon_theme.load_icon("zacalc", 48, 0)
+			self.icon = icon_theme.load_icon("accessories-calculator", 48, 0)
 		except Exception, e:
 			print "can't load icon", e
 		

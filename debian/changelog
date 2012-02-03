@@ -1,3 +1,9 @@
+zacalc (0.2.5) rote; urgency=low
+
+  * Replace Icon in About 
+
+ -- azis ws <azis.astrojim@surabaya.di.blankon.in>  Fri, 03 Feb 2012 19:38:22 +0700
+
 zacalc (0.2.4) rote; urgency=low
 
   * add icons/zacalc.png

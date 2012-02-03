@@ -1,8 +1,8 @@
 
 [Desktop Entry]
 Encoding=UTF-8
-Name=Zakat Kalkulator Indonesia
-Comment=Kalkulator Zakat Indonesia
+Name=BlankOn Zakat Kalkulator 
+Comment=Aplikasi Pengira Perhitungan Zakat
 Exec=python /usr/share/zaclac/zacalc.py
 Icon=/usr/share/icons/zacalc.png
 Terminal=false
