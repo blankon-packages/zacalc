@@ -1,3 +1,9 @@
+zacalc (0.2.6) rote; urgency=low
+
+  * Perbaiki icon pada panel 
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Sat, 03 Mar 2012 21:34:53 +0700
+
 zacalc (0.2.5) rote; urgency=low
 
   * Replace Icon in About 
