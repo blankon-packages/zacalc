@@ -3,11 +3,11 @@
 Encoding=UTF-8
 Name=BlankOn Zakat Kalkulator 
 Comment=Aplikasi Pengira Perhitungan Zakat
-Exec=python /usr/share/zaclac/zacalc.py
+Exec=bash zacalc.sh
 Icon=zacalc
 Terminal=false
 Type=Application
-Categories=X-Islamic-Software;X-zaclac;
+Categories=X-Islamic-Software;X-Zacalc;
 StartupNotify=true
-X-Ubuntu-Gettext-Domain=zaclac
+#X-Ubuntu-Gettext-Domain=zacalc
 
