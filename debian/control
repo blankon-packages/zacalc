@@ -1,5 +1,5 @@
 Source: zacalc
-Section: python
+Section: desktop
 Priority: extra
 Maintainer: BlankOn Developers <blankon-dev@googlegroups.com>
 Build-Depends: debhelper (>= 8.0.0)
