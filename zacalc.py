@@ -126,7 +126,7 @@ class ZaCalc(object):
 		buttonbox.add(button4)
 		
 		#image
-		pixbuf = gtk.gdk.pixbuf_new_from_file("/usr/share/zaclac/logo.png")
+		pixbuf = gtk.gdk.pixbuf_new_from_file("/usr/share/zacalc/image/logo.png")
 		image = gtk.Image()
 		image.set_from_pixbuf(pixbuf)
 		image.show()
