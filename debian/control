@@ -10,7 +10,7 @@ Vcs-Browser: http://dev.blankonlinux.or.id/browser/rote/zacalc
 Vcs-bzr: http://dev.blankonlinux.or.id/bzr/rote/zacalc
 
 Package: zacalc
-Architecture: any
+Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}, python-gtk2, islamic-menus
 Description: zakat calculator
  BlankOn Zakat Kalculator is tool to calculate 
